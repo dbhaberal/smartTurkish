@@ -48,6 +48,36 @@
 
 }
 
+.mid-bg {
+    background-color: rgb(228, 228, 228);
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.mid-bg img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin-bottom: 20px;
+}
+
+.mid-bg img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.italki {
+    height: 90px;
+}
+
+.turkishws {
+    height: 70px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+
+}
 
 @media only screen and (max-width: 991px) {
     .social-icons {
@@ -63,9 +93,7 @@
     
     
     .down {
-        background: none;
-        padding-top: 0px;
-        height: 50%;
+        display: none;
 
     }
 
@@ -80,7 +108,24 @@
         font-size: smaller;
     
     }
+
+    .card {
+        margin-top: 20px;
+    }
     
+
+    
+    .italki {
+        display: none;
+    }
+
+    .turkishws {
+        display: none;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+    }
 
   }
 
