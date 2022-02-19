@@ -1,0 +1,87 @@
+.social-icons {
+    display: flex;
+}
+
+
+.up1 {
+    overflow: hidden;
+    height: 700px;
+}
+
+
+.up {
+    height: 700px;
+    background-image: url("../img/family.jpg");
+    background-position: top;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+.up:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+
+.down {
+    height: 700px;
+    background-image: url("../img/capa.jpg");
+    background-position: top;
+    background-size: cover;
+    padding-top: 10%;
+
+}
+
+.down:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=30);
+}
+
+.jumbotron1 {
+
+    background-color: #b13634;
+}
+
+.jumbotron2 {
+
+    background-color: #f2f2f2;
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .social-icons {
+        display: flex;
+        letter-spacing: 5px;
+    }
+    .up {
+        background: none;
+        padding-top: 0px;
+        height: 50%;
+
+    }
+    
+    
+    .down {
+        background: none;
+        padding-top: 0px;
+        height: 50%;
+
+    }
+
+    .jumbotron1 {
+
+        font-size: smaller;
+
+    }
+    
+    .jumbotron2 {
+    
+        font-size: smaller;
+    
+    }
+    
+
+  }
+
+
